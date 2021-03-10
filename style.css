@@ -96,13 +96,22 @@ h2 {
 
 section img {
 	  height: 300px;
-	  width: 500px;   
+	  width: 500px; 
+
 }
 
-.project1 .project2 .project3 {
-	width: 200px;
-	float: left;
+.project_images {
+	
 }
+/*.projects {
+	overflow: auto;
+	transform: scaleY(1.5);
+}*/
+
+/*.project1, .project2, .project3 {
+	width: 200px;
+/*	float: left;
+}*/
 
 	.fa {
 	  padding: 20px;
