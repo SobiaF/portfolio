@@ -1,9 +1,5 @@
 * {
-  box-size: border-box;
-}
-
-body {
-  margin: 0;
+  box-sizing: border-box;
 }
 
 @import url(https://fonts.googleapis.com/css?family=roboto);
@@ -24,10 +20,6 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-between;
-}
-
-.nav-links li {
-  list-style-type: none;
 }
 
 a {
@@ -80,6 +72,7 @@ body, html {
 
 section {
   width: 800px;
+  max-width: 95%;
   margin: 0 auto;
   text-align: center;
 }
@@ -116,6 +109,7 @@ section img:hover {
   width: 50px;
   text-decoration: none;
   margin-top: 30px;
+  color: #fff;
 }
 
 .fa:hover {
@@ -124,26 +118,21 @@ section img:hover {
 
 .fa-envelope {
   background: #007bb5;
-  color: #fff;
 }
 
 .fa-github {
   background: #55acee;
-  color: #fff;
 }
 
 .fa-twitter {
   background: #55acee;
-  color: #fff;
 }
 
 .fa-linkedin {
   background: #007bb5;
-  color: #fff;
 }
 
 @media screen and (max-width: 600px) {
   main section {
-    flex-direction: column;
-  }
+	  grid-template-columns: 1fr;  }
 }
